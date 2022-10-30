@@ -1,4 +1,4 @@
-# Hospital Management and ML based Disease Prediction System.
+# Hospital Management and ML based Disease Prediction System
 
 Video Demo : [Hospital Management System - Youtube](https://www.youtube.com/watch?v=T9qGpWsCFd8)
 
@@ -27,6 +27,6 @@ Video Demo : [Hospital Management System - Youtube](https://www.youtube.com/watc
 6. In phpmyadmin page, create a new database from the left panel and name it as 'myhmsdb'
 7. Import the file 'myhmsdb.sql' inside your newly created database and click ok.
 8. Open a new tab and type 'localhost/foldername' in the url of your browser
-9. Enjoy the project!
+9. Enjoy the project.
     
 
