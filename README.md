@@ -1,6 +1,7 @@
 # Hospital Management and ML based Disease Prediction System
 
-Video Demo : [Hospital Management System - Youtube](https://www.youtube.com/watch?v=T9qGpWsCFd8)
+Video Demo : [Hospital Management and ML based Disease Prediction System - Youtube](https://www.youtube.com/watch?v=T9qGpWsCFd8)
+Website Demo :[Hospital Management and ML based Disease Prediction System](https://irshospitals.000webhostapp.com/)
 
 ## Prerequisites
 1. Install XAMPP web server
