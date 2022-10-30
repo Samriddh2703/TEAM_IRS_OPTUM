@@ -1,4 +1,4 @@
-# Hospital Management and ML based Disease Prediction System
+# Hospital Management and ML based Disease Prediction System.
 
 Video Demo : [Hospital Management System - Youtube](https://www.youtube.com/watch?v=T9qGpWsCFd8)
 
