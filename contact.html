@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="contact.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script >
+    function alphaOnly(event) {
+  var key = event.keyCode;
+  return ((key >= 65 && key <= 90) || key == 8 || key == 32);
+};
+  </script>
+
+<style >
+    body{
+    background: -webkit-linear-gradient(left, rgb(0, 0, 0), white);
+}
+  .contact-form {
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    border-top-right-radius: 10% 50%;
+    border-bottom-right-radius: 10% 50%;
+}
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" >
+    <div class="container">
+
+      <a class="navbar-brand js-scroll-trigger" href="index.php" style="margin-top: 10px;margin-left:-65px;font-family: 'IBM Plex Sans', sans-serif;"><h4><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp IRS HOSPITALS</h4></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item" style="margin-right: 40px;">
+            <a class="nav-link js-scroll-trigger" href="index.php" style="color: rgb(5, 5, 5);font-family: 'IBM Plex Sans', sans-serif;"><h6>HOME</h6></a>
+          </li>
+
+          <li class="nav-item" style="margin-right: 40px;">
+            <a class="nav-link js-scroll-trigger" href="services.html" style="color: rgb(0, 0, 0);font-family: 'IBM Plex Sans', sans-serif;"><h6>ABOUT US</h6></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="contact.html" style="color: rgb(0, 0, 0);font-family: 'IBM Plex Sans', sans-serif;"><h6>CONTACT</h6></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger"  href="https://samriddh2703-irl-optum-project-multiplediseasepred-xpk6es.streamlitapp.com/"  style="color: rgb(1, 1, 1);font-family: 'IBM Plex Sans', sans-serif;"><h6>&nbsp &nbsp DISEASE PREDICTOR</h6></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+    <div class="container contact-form" style="font-family: 'IBM Plex Sans', sans-serif;">
+            <div class="contact-image">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP0AAADHCAMAAADlCqUFAAAAflBMVEX39/cAAAD////8/Pzx8fH29vbGxsbNzc3h4eHc3Nyzs7OQkJDJycmKioqrq6vz8/PV1dU5OTnn5+d/f3+jo6N4eHhpaWlxcXEWFhY/Pz+/v79XV1ewsLBfX18lJSVJSUmZmZksLCwNDQ1hYWEyMjIcHByMjIxERERNTU2VlZURrG7hAAAJmklEQVR4nO1da1fiPBCmM8UWVygWBKWsCuqq//8PviQtpW0ml0JfmdQ+n3Y9cg6PydwvGY0GDBgwYMCAAQMGDBjADgiA1/4OVwEi4OR2+rX8dfQPRx7efGeBwAKu/W1+FAijmz9PwRFfv4f94bbHyyyoYvdL2B+oR9Nd0ER47e/1AziIerRQmAuk1/5q/zsQ5tM9yT0IJv1W+gjh8l5D/YBNn9kjRms99QO2/WUP49m7kXsQzPrKHsI/FuoH/OmnyYOYVvINPPSRPcRmcS+x6h97SB25B8Fb39hDMnXlHgR/+8UeYebOPQieesUeouc25HvFHkNngS/w3B97D7ctuQfBY1/YY/i3NfnesIdNe+59YY/o5Nr1kz2mT3amfWUPd+dx7wV7WJ5LvgcWD84TeQnvvR18O5+89+zx5QLy3kc5n5eQ9z3CvejkPc9uwIXkvc5swSUKT+LbX4tnNnWPLuz9zWhrszjP05sUD0iiV5tk3PrKHiOa0FtUdqQgQmxO8t35yj4k6ezmjWYcSE3KIb7Sl78UtLpfoHqYppSPpxVs+KbILEkDBnMd+Y+f/trdgBZ6mvzhtyca9vd+mvuEvPZaLnBDs/fT1QMqgWlqQQJa9f/xUeXTln5uooIf1Ed8NPcYt7/FSCp+4x+MKYBsxLEwAapxKfmhb9whaGP3blFgQHRyPPqn9DTm69vCBAmj76HKxx3JPrKJ8Fi9+v61aFM32EmE4Uv5jHcxjtZts15iUKvb3nXpoqZk9WFnr1wa79LZ2rLNs5UJvjY/491sQqoh72C81DyYb026hjSmlYkaG3gm9qgJ1QQmtg9Ds2fXN7FHQ0OWtdtaEZpXvy6+sVJt89vUMMezyQQ6j3mERYoha/y+3UayAjwY2evSWgWUqHjqFXutl1dgb/w0rJq/71dsr1zdNoeJSmfPO2/yiHCE/K+mdFOBIcwbK4ktxhofYZRuXh/+vosv/fwubDk4tCmkOkZEfMfV1UGIZ2/VCqyYljU5OiWeQ5q+KvRMW1ao+TkRhtO5vCYeJwQpHBEag2VoDxPVrD25Hr3AUtkoABGRzLZlAa8BiNUrmodi4NyJ+hlV+aNmRoffFCKGpDuza3P0AvezFEF0LwAkGzoo5Negqis0i+YSQmeb/wCr7+Xyda01E9zSmZjoQvcxnY2+BB/MyMNc12T0D7rozaqDWfkOttpvKrortPms88AsrQH/tN9UtJJqys9ng1d8YwpdhVcy7pb8mtXRE35oCTE9gHqxOAusPHyixnLCK7g6uc5glcc2C3XaubljVbc1z9RkYE1otcSeU8OCmnOpQdxSsj3rbNwwuvdoseRjXcPNuWBVukOzQhOzA21dfCNYBba2WTJh7Dv182JO994St4o4VK07X4Atp6MPdduvCgghhV135Fk5eUY3RyDCTo09q6lTi7ELZCuOIf5pDU5Cr+s8O0FcfFPNuiVuWd17qzrr9uKzsvSWcnSQVyW7i+xfOF37k6l/f1huojhJknS+mS0q3o/Q0ED2lZ+BPauwNndi9otNAiL5LH8kc9Dh5mgJNl1efF59GsLaZTcjYpUzQjKTqi7Rd6W2xoaV0I/i4G2i3WKNIskpyozQkcZ/5UUep3fGDd4QZku0dmu4gpWPJ2GTQ0w68/G/WMm8M1waFuy4vzaNM9FJcLvXdDRwB7baE6iDtpuFOaxNWi7gZehboIt0Jq+iVQt0kc68Y2frXGEqcPWefAcX32PyrVp1+kb+8gLWXJD3VuldSF6aOnjwc6HOhaH9Xjo5sAg+/bz+F4U492F+8oG37s4Zu4GP+JLyjjJL5Ov7APpFMRas5XFjPn/n6VoVUd+2PXtBQmZyMDl29nq6UEjYqzOWQ8scHqZlUoxZa2Ib0FsmDPiQHfpVoeFVxnAEhrLDpuV67CyRyr6qMD0UfPEEQmG24haJ3Xwsq5EIH1+ZS2vAXOq73FlF5ycBcpFvKgvPtshB+QTCLD9LtxTXu/TvMN01fu5VhgOx0sL3IKtcMHG4/cWvqnrCJ6WPd7Wze8oPdGS9/Xl5nup24DaIYYIS19/ktMx+730qRT6kFi76xF49vkKRp4baxlTWxTRb9Lxiry6Veclz8qj1fOT1QF2rg1/sibaOvAINkx3FLsv9Au3jEZ6xJ8atF3nMipRSs+kF39I7BJVdPmEL8x31cxwbbAKrcQQXUF3731KzYT3uyffnmmfz/cvuUD0rn3Eh/SflX3SkkJsmS3gY4JMtO8vi+AvPNzsWpzE0WMO9fzGeppvxs5B+GQhUl6ygvuyV+cK+3LQhTRgZ2+TSP4Ioqy8a0A+r+rEzFzCePcgbvF/dJqB7Aek5D1ix2fWkfTuF0ySODpB+11KY67kuq6ljo2t95Z/cUJcurERUjkgU83QjZZqyJ3uxx6RJ8uXYyqgGLvfai0xPO3D39NSExOtJqDFpTC4ZWg/Ju8/c2hMbH+vafFKbSTOcJWUkuV98pTOr2VKMcFNxZkxZOmJUnbmTr3hpjU1xwks/8C/tmanRnnAQPSP/VScP61meupjnmtFcm1C6O1nH9sQbCI2IDLJidRpCsv2y1aWUBkdeIxl1EJOoze1fUKGAEG7N+7GaPX6ci/dI1OgayXfZol9ZGEA8h1ND4+qz9vPGYbRdrLMsWy+2RdKiYZ7z/hX3/ER9H9eM8dELlAsUi0NrLoTOpxHdi9A1rc9q3tyE4yB+46XGQjbcExQ1YbI+KMAEZSq+ccrHCWzrmugSFcH35d3DU3NenX15j90LkVCSN2+YZYTTRp0a+1P4889d8He+3fvKMqUq+0rs5z5TVvpPnE19HXuCPVYjti939qu2n7gyqt0KR/YIUXUdi3vn0THFwWmpkBmV9RvTPKQZ39b3zLRm7023Ss03Xx7cn/FGSc6/tLz5rPYsGFF70eEOIqou4b4aTGo9ZlPHBtQb8WN6Bs99172weB51Z9Y6LnTlOPfELPjj40nol0ucSlnuSizmtUDPAsMESnZ60M+ZPG4zX7S9gGG5RFjmqdyPE5nncBvQz9hHiO2DHM9G0LQTl0s47aLyx3FrB+2yrdxqVf/dQ+jmznJJL3K+zEtx50OzZe6o5mQ7Er+VKV1BebhMYn3UXdJr7+3R09O2p0yOSOf747S3BrVWpRqgwZrVRsSOoW5Tajz6EnsTqbeH2mK6bvor/SWvVvKYLUP7f9GouU7HPT5pFTX2q/g3Hfyoxv6NeuKq3yjZL1Ljvr1+Iq/iZLfjX3fuAgedv5qFv/DYc4TjX0t9wIABAwYMGDBgwACe+A9oGXA31Ry0vQAAAABJRU5ErkJggg==" alt="rocket_contact" color="black"/>
+            </div>
+            <form method="post" action="contact.php">
+                <h3>Drop Us a Message</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" onkeydown="return alphaOnly(event);" required/>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="txtEmail" class="form-control" placeholder="Your Email *" value="" required />
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" minlength="10" maxlength="10" required />
+                        </div>
+                        <div class="form-group" >
+                            <input type="submit" name="btnSubmit" class="btnContact" style="background-color:black"  value="Send Message" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group" >
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;" required></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+</div>
+
+</body>
+</html>
+
+
+
