@@ -28,7 +28,7 @@ Website Demo :[Hospital Management and ML based Disease Prediction System](https
 5. Open your web browser and type 'localhost/phpmyadmin'
 6. In phpmyadmin page, create a new database from the left panel and name it as 'myhmsdb'
 7. Import the file 'myhmsdb.sql' inside your newly created database and click ok.
-8. Open a new tab and type 'localhost/foldername' in the url of your browser
+8. Open a new tab and type 'localhost/foldername' in the url of your browser.
 9. Enjoy the project.
     
 
